@@ -1,0 +1,42 @@
+/*
+ Theme Name:     Fenix People Child Theme
+ Description:    Fenix People Child Theme
+ Template:       fenixpeople
+ Version:        1.0.0
+*/
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+.subscription_page .arm_membership_setup_form {
+  padding: 30px;
+}
+.subscription_page .arm_setup_form_title {
+  margin-top: 0 !important;
+}
+.subscription_page .arm_membership_setup_sub_ul.arm_column_3 li,
+.subscription_page .arm_module_box .arm_column_3 li.arm_setup_column_item {
+  width: 45%;
+}
+.subscription_page .arm_module_plans_container .arm_module_plan_description {
+  padding: 0 15px 10px 15px;
+}
+.subscription_page .arm_module_plans_ul * {
+  text-align: start !important;
+}
+.subscription_page .arm_module_plan_description ul li {
+  position: relative;
+  margin-left: 0 !important;
+  padding-left: 25px;
+}
+.subscription_page .arm_module_plan_description ul li::after {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  height: 18px;
+  width: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
