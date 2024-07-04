@@ -881,5 +881,11 @@ body.page #site-content div.entry-content h4 {
 @media (max-width: 768px) {
 }
 
+@media (max-width: 1400px) 
+{
+  .woocommerce-account #custom_woocommerce_design .woocommerce-MyAccount-content {
+    width: calc(100% - 350px) !important;
+}
+}
 @media (max-width: 480px) {
 }
