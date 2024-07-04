@@ -649,8 +649,8 @@ body.page #site-content div.entry-content h4 {
 .woocommerce-account .woocommerce-MyAccount-navigation {
   /* background-color: #f74118; */
   /* background-color: rgba(18, 131, 255, 0.68); */
-  background-color: rgb(49, 63, 160);
-  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  background-color: transparent;
+  /* text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); */
 }
 .woocommerce-account .woocommerce-MyAccount-navigation ul {
   margin: 30px 10px;
@@ -671,10 +671,10 @@ body.page #site-content div.entry-content h4 {
   padding: 30px 20px;
 }
 .woocommerce-account .woocommerce-MyAccount-content p {
-  color: #fff;
+  /* color: #fff; */
 }
 .woocommerce-account .woocommerce-MyAccount-content a {
-  color: #fff;
+  /* color: #fff; */
   text-decoration: underline;
 }
 .woocommerce-account .woocommerce-MyAccount-content a:hover {
@@ -751,6 +751,132 @@ body.page #site-content div.entry-content h4 {
 #financial_report_by_user_wrapper #financial_report_by_user thead th span {
   color: #262626 !important;
   font-weight: 700;
+}
+#custom_woocommerce_design .text_dark *,
+.text_dark * {
+  color: #1d1d1ddb !important;
+}
+.woocommerce-account
+  #custom_woocommerce_design
+  .woocommerce-MyAccount-navigation {
+  float: unset;
+  margin-right: 25px;
+  max-width: 325px;
+  min-width: 325px;
+  width: 325px !important;
+}
+.woocommerce-account #custom_woocommerce_design .woocommerce-MyAccount-content {
+  float: unset;
+  width: 100% !important;
+}
+.woocommerce-account
+  #custom_woocommerce_design
+  .woocommerce-MyAccount-navigation
+  ul {
+  margin: 0 !important;
+  padding: 10px 0 !important;
+}
+#custom_woocommerce_design {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+}
+#custom_woocommerce_design .woocommerce-MyAccount-navigation .is-active a,
+.woocommerce-account
+  #custom_woocommerce_design
+  .woocommerce-MyAccount-navigation
+  a:hover {
+  color: #313fa0 !important;
+  background-color: #f2f2f2;
+}
+.woocommerce-account
+  #custom_woocommerce_design
+  .woocommerce-MyAccount-navigation,
+.woocommerce-account #custom_woocommerce_design .woocommerce-MyAccount-content {
+  background-color: #fff !important;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+#custom_woocommerce_design .woocommerce-MyAccount-navigation ul li {
+  margin: 0 !important;
+}
+#custom_woocommerce_design .woocommerce-MyAccount-navigation ul a {
+  width: 100%;
+  padding: 10px 20px;
+  display: inline-block;
+}
+#custom_woocommerce_design .send_user_message_cont .nav .nav-item .nav-link {
+  border-color: #f2f2f2;
+}
+#custom_woocommerce_design .send_user_message_cont .nav-item .nav-link.active {
+  background-color: #f2f2f2 !important;
+  color: #313fa0 !important;
+}
+.woocommerce-account .entry-content .woocommerce {
+  max-width: 100% !important;
+}
+#custom_woocommerce_design table {
+  width: 100% !important;
+}
+#custom_woocommerce_design input {
+  border-color: #f2f2f2 !important;
+  border: 1px solid #f2f2f2 !important;
+}
+#custom_woocommerce_design #send_message_by_user_btn {
+  background-color: #313fa0 !important;
+}
+#custom_woocommerce_design #file_adding_div .file_item {
+  display: flex;
+  margin-bottom: 10px;
+}
+#custom_woocommerce_design #file_adding_div .file_item input {
+  font-size: 14px;
+  border: none;
+  padding: 0;
+}
+#custom_woocommerce_design #file_adding_div .file_item .removefile {
+  background-color: transparent;
+  padding: 0 !important;
+  font-size: 16px;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+  border: 1px solid;
+}
+#custom_woocommerce_design #addFile {
+  color: #313fa0 !important;
+  background-color: transparent !important;
+  border: 1px solid #313fa0 !important;
+  font-size: 16px;
+  padding: 8px 30px;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 10px;
+  min-width: 130px;
+}
+#financial_report_by_user .btn,
+#request_service_client td .button,
+#custom_woocommerce_design #send_message_by_user_btn {
+  color: #ffffff !important;
+  background-color: #313fa0 !important;
+  font-size: 16px;
+  padding: 8px 30px;
+  border-radius: 4px;
+  border: none;
+  display: flex;
+  align-items: center;
+  min-width: 130px;
+  text-align: center;
+  justify-content: center;
+}
+#custom_woocommerce_design tr,
+#custom_woocommerce_design th,
+#custom_woocommerce_design td {
+  border: 0.1rem solid #dcd7ca;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0.5em;
 }
 @media (max-width: 768px) {
 }
