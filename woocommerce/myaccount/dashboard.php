@@ -42,7 +42,7 @@ $allowed_html = array(
 <p>
 	<?php
 	/* translators: 1: Orders URL 2: Address URL 3: Account URL. */
-	$dashboard_desc = __( 'From your account dashboard you can view your <a href="%1$s">message</a>,  <a href="%2$s">payment history</a>,<a href="%3$s">financial report</a>,manage  <a href="%4$s">shipping and billing addresses</a>  and <a href="%5$s">edit your password and account details</a>.', 'woocommerce' );
+	$dashboard_desc = __( 'From your account dashboard you can view your <a href="%1$s">message</a>,  <a href="%2$s">payment history</a>, <a href="%3$s">financial report</a>, manage  <a href="%4$s">shipping and billing addresses</a>  and <a href="%5$s">edit your password and account details</a>.', 'woocommerce' );
 
 	// $dashboard_desc = __( 'From your account dashboard you can view your <a href="%1$s">recent orders</a>, manage your <a href="%2$s">shipping and billing addresses</a>, and <a href="%3$s">edit your password and account details</a>.', 'woocommerce' );
 
