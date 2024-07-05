@@ -767,7 +767,7 @@ body.page #site-content div.entry-content h4 {
 }
 .woocommerce-account #custom_woocommerce_design .woocommerce-MyAccount-content {
   float: unset;
-  width: 100% !important;
+  width: calc(100% - 350px) !important;
 }
 .woocommerce-account
   #custom_woocommerce_design
@@ -778,6 +778,7 @@ body.page #site-content div.entry-content h4 {
 }
 #custom_woocommerce_design {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   box-sizing: border-box;
 }
@@ -878,13 +879,21 @@ body.page #site-content div.entry-content h4 {
   margin: 0;
   padding: 0.5em;
 }
-@media (max-width: 768px) {
+#custom_woocommerce_design .dt-layout-cell {
+  overflow: auto;
 }
-
-@media (max-width: 1400px) 
-{
-  .woocommerce-account #custom_woocommerce_design .woocommerce-MyAccount-content {
-    width: calc(100% - 350px) !important;
+@media (max-width: 767px) {
+  .woocommerce-account
+  #custom_woocommerce_design
+  .woocommerce-MyAccount-navigation {
+    margin-right: 0;
+    max-width: 100%;
+    width: 100% !important;
+    margin-bottom: 25px;
+    min-width: unset;
+}
+.woocommerce-account #custom_woocommerce_design .woocommerce-MyAccount-content {
+  width: 100% !important;
 }
 }
 @media (max-width: 480px) {
