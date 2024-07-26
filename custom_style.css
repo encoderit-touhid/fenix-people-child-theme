@@ -882,6 +882,29 @@ body.page #site-content div.entry-content h4 {
 #custom_woocommerce_design .dt-layout-cell {
   overflow: auto;
 }
+.__custom_encoder.lost_reset_password {
+  max-width: 550px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.__custom_encoder.lost_reset_password .form-row {
+  width: 65%;
+}
+.__custom_encoder .button_p {
+  width: 35% !important;
+  display: flex;
+  align-items: end;
+}
+.__custom_encoder .button_p button.button {
+  min-height: 52px;
+}
+@media (max-width: 768px) {
+  .__custom_encoder .button_p,
+  .__custom_encoder.lost_reset_password .form-row {
+    width: 100% !important;
+  }
+}
 @media (max-width: 767px) {
   .woocommerce-account
   #custom_woocommerce_design
